@@ -6,9 +6,21 @@
     "start": "next start"
   },
   "dependencies": {
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/client": "^3.3.6",
+    "@sanity/image-url": "^1.0.1",
+    "http": "^0.0.1-security",
+    "latest-version": "^7.0.0",
     "next": "latest",
+    "next-sanity": "^0.8.3",
+    "next-sanity-image": "^4.1.0",
+    "npm": "^8.19.1",
+    "path-match": "^1.2.4",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.34.2",
+    "react-portable-text": "^0.5.1",
+    "url": "^0.11.0"
   },
   "devDependencies": {
     "@types/node": "17.0.35",

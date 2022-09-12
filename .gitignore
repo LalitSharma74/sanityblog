@@ -5,6 +5,11 @@
 /.pnp
 .pnp.js
 
+# Compiled sanity studio 
+
+/dist
+
+
 # testing
 /coverage
 
