@@ -1,5 +1,5 @@
 export interface Post {
-  _id: string;
+  _id?: string;
   _createdAt: string;
   title: string;
   author: {
@@ -24,6 +24,7 @@ export interface Comment {
   comment: string;
   email: string;
   name: string;
+  _id: string;
   post: {
     _ref: string;
     _id: string;
