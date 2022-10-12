@@ -34,7 +34,7 @@ const Home: NextPage<Props> = ({ posts }) => {
             Discover stories, thinking, and expertise from writers on any topic.
           </h2>
         </div>
-        <Image
+        <img
           className="hidden md:inline-flex h-32 lg:h-full"
           src="https://accountabilitylab.org/wp-content/uploads/2020/03/Medium-logo.png"
           alt=""
@@ -47,7 +47,7 @@ const Home: NextPage<Props> = ({ posts }) => {
         {posts.map((post) => (
           <Link key={post._id} href={`post/${post.slug.current}`} passHref>
             <div className="group cursor-pointer border rounded-lg overflow-hidden">
-              <Image
+              <img
                 className="h-60 w-full object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out"
                 src={urlFor(post.mainImage).url()!}
                 alt=""
@@ -59,7 +59,7 @@ const Home: NextPage<Props> = ({ posts }) => {
                     {post.description} by {post.author.name}
                   </p>
                 </div>
-                <Image
+                <img
                   className="h-12 w-12 rounded-full"
                   src={urlFor(post.author.image).url()!}
                   alt=""

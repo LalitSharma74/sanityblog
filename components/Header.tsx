@@ -17,10 +17,11 @@ function Header() {
 
       <div className="flex items-center space-x-5 ">
         <Link href="/">
-          <Image
+          <img
             className="w-44 object-contain cursor-pointer"
             src="https://links.papareact.com/yvf"
             alt=""
+            width='44'
           />
         </Link>
 
